@@ -85,23 +85,35 @@ ul li::before {
 }
 
 input::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
     color: hsl(236, 33%, 92%);
 }
 
 input::-moz-placeholder {
-    /* Firefox 19+ */
     color: hsl(236, 33%, 92%);
 }
 
 input:-ms-input-placeholder {
-    /* IE 10+ */
     color: hsl(236, 33%, 92%);
 }
 
 input:-moz-placeholder {
-    /* Firefox 18- */
     color: hsl(236, 33%, 92%);
+}
+
+body.dark-mode input::-webkit-input-placeholder {
+    color: hsl(235, 19%, 35%);
+}
+
+body.dark-mode input::-moz-placeholder {
+    color: hsl(235, 19%, 35%);
+}
+
+body.dark-mode input:-ms-input-placeholder {
+    color: hsl(235, 19%, 35%);
+}
+
+body.dark-mode input:-moz-placeholder {
+    color: hsl(235, 19%, 35%);
 }
 
 .todos {
