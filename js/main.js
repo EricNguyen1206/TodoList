@@ -161,11 +161,3 @@ for (var i = 0; i < filters.length; i++) {
         this.className += " active";
     });
 }
-
-// function activeOnClick(event) {
-//     var filterArr = document.getElementsByClassName("filter");
-//     for (var i = 0; i < filterArr.length; i++) {
-//         filterArr[i].classList.remove("active");
-//     }
-//     event.classList.add("active");
-// }
