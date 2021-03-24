@@ -165,7 +165,7 @@ ul li.checked::before {
 }
 
 ul li p {
-    padding: 18px 60px;
+    padding: 18px 0;
 }
 
 ul li .close {
